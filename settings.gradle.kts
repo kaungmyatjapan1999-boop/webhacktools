@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FELIXSecurityToolkit"
+
+rootProject.name = "webhacktool"
 include(":app")
