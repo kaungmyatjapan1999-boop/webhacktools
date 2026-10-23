@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.webhacktool"
+    namespace = "com.felix.securitytoolkit"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.webhacktool"
+        applicationId = "com.felix.securitytoolkit"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
