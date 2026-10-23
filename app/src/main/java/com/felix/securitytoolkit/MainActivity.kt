@@ -177,6 +177,9 @@ fun FelixDashboard() {
                     }
                     LazyVerticalGrid(
                         columns = GridCells.Fixed(2),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .weight(1f),
                         contentPadding = PaddingValues(start = 20.dp, end = 20.dp, bottom = 20.dp),
                         horizontalArrangement = Arrangement.spacedBy(12.dp),
                         verticalArrangement = Arrangement.spacedBy(12.dp)
