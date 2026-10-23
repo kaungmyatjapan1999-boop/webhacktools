@@ -5,7 +5,7 @@
         android:theme="@android:style/Theme.Material.Light.NoActionBar"
         android:supportsRtl="true">
         <activity
-            android:name=".MainActivity"
+            android:name="com.felix.securitytoolkit.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
